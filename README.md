@@ -17,6 +17,21 @@
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="../smart-core/source/smart.core.js"></script>
     <link rel="stylesheet" href="../smart-core/source/styles/smart.default.css" type="text/css" />
+ <script>
+   window.onload = function () {
+    const basePath = '/images/',
+        carouselSquare = document.getElementById('carouselSquare'),
+ 
+    carouselSquare.dataSource = generateDataSource(7);
+ 
+    function generateDataSource(items) {
+        let dataSource = Array(items).fill({});
+
+        dataSource.forEach((element, index) => dataSource[index] = { image: `${basePath}carousel-square-${index + 1}.jpg` });
+        return dataSource;
+    }
+}
+   </script>
      <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
