@@ -1,46 +1,43 @@
 {
-  "name": "@smarthtmlelements/smart-carousel",
-  "version": "2.0.1",
-  "description": "Smart Carousel",
-   "scripts": { 
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HTMLElements/smart-carousel.git"
-  },
-  "author": "Smart HTML Elements",
-  "license": "SEE LICENSE IN https://www.htmlelements.com/license/",
-  "bugs": {
-    "url": "https://github.com/HTMLElements/smart-carousel"
-  },
-  "homepage": "https://github.com/HTMLElements/smart-carousel#readme",
-  "devDependencies": {
- 
-  },
-  "dependencies": {
-    "@webcomponents/webcomponentsjs": "^1.0.22",
-     "@smarthtmlelements/smart-core": "^2.0.1"
-  },
-  "main": "index.js",
-  "directories": {},
-  "keywords": [
-	"custom",
-	"element",
-	"carousel custom element",
-	"html carousel",
-	"carousel",
-	"web components carousel",
-	"carousel element",
-	"banner rotator",
-	"custom carousel",
-	"carousel widget",
-	"carousel ui",
-	"carousel component",
-	"carousel control",
- 	"banner",
-  	"banner element",
-  	"banner user interface",
-  	"material banner",
-  	"material carousel"
-  ]
+ "name": "@smarthtmlelements/smart-carousel",
+ "version": "2.0.2",
+ "description": "Smart Carousel",
+ "scripts": {},
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/HTMLElements/smart-carousel.git"
+ },
+ "author": "Smart HTML Elements",
+ "license": "SEE LICENSE IN https://www.htmlelements.com/license/",
+ "bugs": {
+  "url": "https://github.com/HTMLElements/smart-carousel"
+ },
+ "homepage": "https://github.com/HTMLElements/smart-carousel#readme",
+ "devDependencies": {},
+ "dependencies": {
+  "@webcomponents/webcomponentsjs": "^1.0.22",
+  "@smarthtmlelements/smart-core": "^2.0.1"
+ },
+ "main": "index.js",
+ "directories": {},
+ "keywords": [
+  "custom",
+  "element",
+  "carousel custom element",
+  "html carousel",
+  "carousel",
+  "web components carousel",
+  "carousel element",
+  "banner rotator",
+  "custom carousel",
+  "carousel widget",
+  "carousel ui",
+  "carousel component",
+  "carousel control",
+  "banner",
+  "banner element",
+  "banner user interface",
+  "material banner",
+  "material carousel"
+ ]
 }
