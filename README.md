@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="../smart-core/source/styles/smart.default.css" type="text/css" />
  <script>
    window.onload = function () {
-    const basePath = '/images/',
-        carouselSquare = document.getElementById('carouselSquare'),
+    var basePath = '/images/',
+        carouselSquare = document.getElementById('carouselSquare');
  
     carouselSquare.dataSource = generateDataSource(7);
  
